@@ -1,0 +1,30 @@
+<!DOCTYPE html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width"><link rel="icon" href="data:">
+</head><body>
+<h1>日本三大堆（漁場）</h1>
+<script type="module" src="https://js.sabae.cc/csv-map.js"></script>
+<csv-map src="japan_sea_banks.csv"></csv-map>
+
+<script type="module" src="https://code4fukui.github.io/csv-viewer/csv-viewer.js"></script>
+<csv-viewer src="japan_sea_banks.csv"></csv-viewer>
+
+<style>
+csv-viewer > div {
+  overflow: scroll;
+}
+csv-viewer th, csv-viewer td {
+  white-space: nowrap;
+  border: 1px solid black;
+  padding: .1em .2em;
+}
+table {
+  border-collapse: collapse;
+}
+</style>
+
+<hr>
+<div id='footer'>
+App: <a href=https://github.com/code4fukui/fishtech-hackathon>src on GitHub</a><br>
+</div>
+</body>
+</html>
+
